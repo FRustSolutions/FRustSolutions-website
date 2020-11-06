@@ -148,6 +148,19 @@ body{
     #sidebar{
         width: 100%;
         float: none;
+        display: inline;
+    }
+}
+
+@media(max-width:600px){
+    .logocontainter{
+        display: inline;
+        /* border: solid 2px black; */
+        /* width: 100%; */
+        float: none;
+        padding-top: 200px;
+        margin-bottom: 0;
+        padding-bottom: 0;
     }
 }
 
