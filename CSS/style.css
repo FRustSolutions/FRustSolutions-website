@@ -140,7 +140,7 @@ body{
 }
 
 /* Add a media query: condition: excecute if under 600px */
-@media(max-width:600px){
+@media(max-width:800px){
     #showcase{
         padding-top: 30px;
     }
@@ -155,8 +155,6 @@ body{
         display: inline;
         padding-left: 10%;
     }
-}
-@media(max-width:800px){
     .logocontainter{
         display: inline;
         /* border: solid 2px black; */
