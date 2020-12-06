@@ -151,7 +151,7 @@
         <p>The CT images are pre-processed for segmentation and feature enhancement unsing Python in combination with OpenCV and NumPy.</p>
         <p>The pre-processed images were then used to train multiple different Convolutional Neural Network (CNN) for the classification task using PyTorch.</p>
         <p>The models with best performance were then further fine-tuned and re-evaluated until the final result was achieved.</p>
-        <p>Taking part at the public Covid-19 detection challenge at <a href="https://covid-ct.grand-challenge.org/CT-diagnosis-of-COVID-19/">grand-challenge.org</a>, the final model outperformed all candidates on the Leaderboard on the official test-set.</p>
+        <p>Taking part at the public Covid-19 detection challenge at <a href="https://covid-ct.grand-challenge.org/CT-diagnosis-of-COVID-19/" target="_blank">grand-challenge.org</a>, the final model outperformed all candidates on the Leaderboard on the official test-set.</p>
         <p>The final performance measurements for this task were:</p>
 
         <ul class=performancelist">
@@ -165,39 +165,64 @@
         <iframe src="./images/CovidClassifierPublication.pdf"  width="90%" height="800px" frameborder="1"></iframe>
     </details>
     <hr>
-    <h3>2) Designing and Developing this website from scratch with JS, HTML & CSS:</h3>
+
+    <h3>2) Developing and training a CNN model with TensorFlow for evaluation with TensorBoard and deploymont on website with TensorFlow.js:</h3>
+    <script type="module" src="TFmodel.js"></script> 
+    <details>
+        <p>I developed a handwritten digit classifier by designing a CNN with TensorFlow and training with <a href="https://www.kaggle.com/c/digit-recognizer/data" target="_blank">this</a> kaggle dataset. This is a quite popular and comparably easy task. The main goal was to focus on performance evaluation and model deployment strategies.</p>
+        <p>The model achieved a final accuracy of above 98% on the given training data. The training process was evaluated using TensorBoard, which provides great visualization features as shown below.</p>
+        <p>This was the simple CNN model architecture that was created by stacking a few Convolutional, Pooling and Dense Layers with a total of roughly 890 thousand trainable parameters:</p>
+        <details>
+            <img src="./images/projects/TensorBoardModel.png" alt="">
+        </details>
+        <p>And this was the training process and performance evaluation with TensorFLow:</p>
+        <details>
+            <img src="./images/projects/TensorBoardTraining.png" alt="">
+            <p>With TensorBoard the training process can be analysed very deeply, you can even track specific parameters like certain biases etc.</p>
+        </details>
+        <p>And the final confusion matrix to evaluate performance on the test set:</p>
+        <details>
+            <img src="./images/projects/ConfusionMatrix2.png" alt="">
+        </details>
+        <br>
+        <p>By using TensorFlow.js the trained model can then be converted and deployed on this website. I am currently working on a HTML canvas where you can draw and evaluate your own digits.</p>
+    </details>
+    <hr>
+
+    <h3>3) Developing this website from scratch with JS, HTML & CSS:</h3>
     <details>
         <p>You are currently looking at the result. I recently taught myself HTML and CSS and will keep improving and updating this site.</p>
     </details>
     <hr>
-    <h3>3) Stock trading algorithm development with Deep Learning:</h3>
+
+    <h3>4) Stock trading algorithm development with Deep Learning algorithms:</h3>
     <details>
-        <p>This is a personal adventure to try out a few different algorithms and frameworks for stock price predictions.</p>
-        <p>I am eager to become more familiar with TensorFlow in addition to Pytorch by actually applying the learned materials in projects like this.</p>
+        <p>This is a personal adventure to try out a few different Machine Learning algorithms and frameworks for stock price predictions.</p>
+        <!-- <p>I am eager to become more familiar with TensorFlow in addition to Pytorch by actually applying the learned materials in projects like this.</p> -->
         <p>Some of my efforts and results may be published here soon ... unless the algorithm actually works well enough, then I'm retiring.</p>
     </details>
     <hr>
-    <h3>4) Control System Development with Matlab/Simulink</h3>
+    <h3>5) Control System Development with Matlab/Simulink</h3>
     <details>
         <p>Designing Control Systems to meet customer requirements:</p>
         <img src="./images/projects/ControlDesign-1.png" alt="">
         <img src="./images/projects/ControlDesign-2.png" alt="">
     </details>
     <hr>
-    <h3>5) Small Embedded System Design</h3>
+    <h3>6) Small Embedded System Design</h3>
     <details>
         <p>Designing an Augmented Reality game controller using Embedded System Design techniques:</p>
         <img src="./images/projects/SESshort-1.png" alt="">
         <img src="./images/projects/SESshort-2.png" alt="">
     </details>
     <hr>
-    <h3>6) Advent of Code with Python/C++/Java:</h3>
+    <h3>7) Advent of Code with Python/C++/Java:</h3>
     <details>
         <p>To keep my skills with Python, C++ and Java programming up to date, I am currently working thorugh the tasks at <a target="_blank" href="https://adventofcode.com/2019/about">AdventOfcode.com</a> .</p>
         <p>I might be posting some of the interesting task results here or on Github.</p>
     </details>
     <hr>
-    <h3>7) Rock Paper Scissors Spock with Python and tkinter:</h3>
+    <h3>8) Rock Paper Scissors Spock with Python and tkinter:</h3>
     <details>
         <p>This was just a fun project to do some OOP in Python to develop basic game functionality and some additional features.</p>
         <p>The simple UI is designed in tkinter and focusses on functionality instead of looks (as you can see below).</p>
