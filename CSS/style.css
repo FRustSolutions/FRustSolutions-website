@@ -15,6 +15,8 @@ body{
 
 #main-header{
     background-image: url('../images/computerscience2.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
     background-position: top right;
     color: white;
     padding: 20px 0;
@@ -91,6 +93,8 @@ body{
     background-image: url('../images/lightgreyabs.jpg');
     /* background-image: url('../images/computerscience.jpg'); */
     background-position: center right;
+    background-repeat: no-repeat;
+    background-size: auto;
     min-height: 300px;  /*min-height so it can expand*/
     margin-bottom: 30px;
     text-align: center;
@@ -129,7 +133,13 @@ body{
     border-bottom: 2px solid lightgray;
     border-right: 2px solid black;
 }
-
+/* 
+.container .hover{
+    mask-image: ;
+            <div class="logocontainter">
+                <img class="logo" src="./images/FRsLogo9.png" alt="Error">
+            </div>
+} */
 
 #main-footer{
     /* background-color: darkgray; */
