@@ -143,7 +143,7 @@
     <h3 id="skillheader">And these are some of my recent projects that I worked on throughout the past year:</h3>
     <hr>
     <h3>1) Covid-19 detection on lung CTs: Combining Computer Vision and Deep Learning in Python:</h3>
-    <p> &nbsp;&nbsp;&bull;CNNs  &nbsp;&nbsp;&bull;CNN Training  &nbsp;&nbsp;&bull;PyTorch  &nbsp;&nbsp;&bull;Performance Evaluation  &nbsp;&nbsp;&bull;Transfer Learning  &nbsp;&nbsp;&bull;Fine Tuning  &nbsp;&nbsp;&bull;Computer Vision  &nbsp;&nbsp;&bull;Image Processing  &nbsp;&nbsp;&bull;Data augmentation  &nbsp;&nbsp;&bull;OpenCV  &nbsp;&nbsp;&bull;NumPy </p>
+    <p> &nbsp;&nbsp;&bull;CNNs  &nbsp;&nbsp;&bull;CNN Training  &nbsp;&nbsp;&bull;PyTorch  &nbsp;&nbsp;&bull;Performance Evaluation  &nbsp;&nbsp;&bull;Transfer Learning  &nbsp;&nbsp;&bull;Fine Tuning  &nbsp;&nbsp;&bull;Computer Vision  &nbsp;&nbsp;&bull;Image Processing  &nbsp;&nbsp;&bull;Data augmentation  &nbsp;&nbsp;&bull;OpenCV</p>
     <details>
         <p>One project I am especially proud of is the Covid-19 detector for lung CTs that I developed with Computer Vision and Deep Learning Tools in Python.</p>
         <p>The detector achieved an impressive classification accuracy of about 97% on official test datasets, which highly exceeds average radiologist performance:</p>
@@ -167,8 +167,37 @@
     </details>
     <hr>
 
-    <h3>2) Developing and training a CNN model for digit recognition with TensorFlow for evaluation with TensorBoard and deploymont on website with TensorFlow.js:</h3>
-    <script type="module" src="TFmodel.js"></script> 
+    <h3>2) Developing and training a CNN model for digit recognition with TensorFlow for evaluation with TensorBoard and deployment on website with TensorFlow.js:</h3>
+    <!-- <script type="module" src="TFmodel.js"></script>  -->
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
+
+    <script>
+        // https://www.youtube.com/watch?v=Y_XM3Bu-4yc&ab_channel=Fireship&t=166s
+        // https://towardsdatascience.com/how-to-deploy-tensorflow-models-to-the-web-81da150f87f7
+        async function load() {
+            const model = await tf.loadLayersModel('model.json');
+            return model;
+        };
+
+        // function predict(model) {
+        //     // code to connect to the <input> given value will go here (just not yet)
+        //     const inputTensor = tf.tensor([parseInt(userInput)]);  // and convert it to a tensor
+
+        //     // now lets make the prediction
+        //     model.then(model => {
+        //     let result = model.predict(inputTensor);  // make prediction
+        //     result = result.round().dataSync()[0];  // round and get value
+        //     alert(result ? "odd" : "even");  // creates pop-up
+        //     });
+        // };
+
+        const model = load();
+        console.log('script executed')
+        console.log(model)
+    </script> -->
+
+
     <p>&nbsp;&nbsp;&bull;CNN Design  &nbsp;&nbsp;&bull;CNN Training  &nbsp;&nbsp;&bull;TensorFlow  &nbsp;&nbsp;&bull;CNN Performance Evaluation  &nbsp;&nbsp;&bull;CNN Training Optimization &nbsp;&nbsp;&bull;TensorBoard  &nbsp;&nbsp;&bull;CNN Model Deployment  &nbsp;&nbsp;&bull;TensorFlow.js</p>
     <details>
         <p>I developed a handwritten digit classifier by designing a CNN with TensorFlow and training with <a href="https://www.kaggle.com/c/digit-recognizer/data" target="_blank">this</a> kaggle dataset. This is a quite popular and comparably easy task. The main goal was to focus on performance evaluation and model deployment strategies.</p>
@@ -187,14 +216,14 @@
             <img src="./images/projects/ConfusionMatrix2.png" alt="">
         </details>
         <br>
-        <p>By using TensorFlow.js the trained model can then be converted and deployed on this website. I am currently working on a HTML canvas where you can draw and evaluate your own digits.</p>
+        <p>By using TensorFlow.js the trained model can then be converted and deployed on this website, which is already implemented. However, I still need to work on a HTML canvas where you can draw your own digits as inputs to be evaluated by the model.</p>
     </details>
     <hr>
 
     <h3>3) Developing this website from scratch with JS, HTML & CSS:</h3>
     <p>&nbsp;&nbsp;&bull;Web Development &nbsp;&nbsp;&bull;Web Design &nbsp;&nbsp;&bull;JavaScript &nbsp;&nbsp;&bull;HTML &nbsp;&nbsp;&bull;CSS</p>
     <details>
-        <p>You are currently looking at the result. I recently taught myself HTML and CSS and will keep improving and updating this site.</p>
+        <p>You are currently looking at the result. Since I coded the site from scratch in raw JS, HTML and CSS, it is still quite basic. I might expand it with frameworks like Angular or React (which is technically a library, I know) in the future. </p>
     </details>
     <hr>
 
