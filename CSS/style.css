@@ -16,7 +16,7 @@ body{
 #main-header{
     background-image: url('../images/computerscience2.jpg');
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     background-position: top right;
     color: white;
     padding: 20px 0;
@@ -94,7 +94,7 @@ body{
     /* background-image: url('../images/computerscience.jpg'); */
     background-position: center right;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     min-height: 300px;  /*min-height so it can expand*/
     margin-bottom: 30px;
     text-align: center;
