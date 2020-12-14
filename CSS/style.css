@@ -221,6 +221,10 @@ body{
 
 /* Languages */
 
+#languages{
+    width: 100%
+}
+
 .languages .flex {
     flex-wrap: wrap;
 }
@@ -264,7 +268,7 @@ body{
 .container3 {
     /* border: 1px solid black; */
     width: 100%;
-    max-width: 1600px;
+    /* max-width: 1900px; */
     margin: 0 auto;
     overflow: auto;
     padding: 0;
